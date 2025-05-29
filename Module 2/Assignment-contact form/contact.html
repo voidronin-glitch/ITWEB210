@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+
+    <form action="" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Name" placeholder="Enter your full name"><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="City" placeholder="Enter your city"><br><br>
+
+        <label for="zip">Zip Code:</label><br>
+        <input type="text" id="zip" name="Zip Code" placeholder="Enter your zip code"><br><br>
+
+        <label for="Waiver">Disclaimer acknowledgement.</label>
+        <input type="checkbox" id="Waiver" name="Confirmed"><br><br>
+
+        <label for="contactReason">Reason for Contact:</label><br>
+        <select id="contactReason" name="ContactReason">
+            <option value="jobInquiry">Job Inquiry</option>
+            <option value="freelanceOpportunity">Freelance Opportunity</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="generalQuestion">General Question</option>
+        </select><br><br>
+
+        <label for="details">Details:</label><br>
+        <textarea id="details" name="Details" rows="5" cols="60" placeholder="Please type your request here."></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <footer>
+        <p>Copyright 2023</p>
+    </footer>
+
+</body>
+</html>
