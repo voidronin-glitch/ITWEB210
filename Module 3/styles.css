@@ -1,0 +1,21 @@
+/* Paragraph tag styles */
+p {
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+}
+
+/* Styling for strong tags (price) */
+strong {
+  color: brown;
+}
+
+/* Hover effect for prices */
+strong:hover {
+  background-color: lightgray; /* This changes background color on hover */
+}
+
+/* Custom class for product names */
+.names {
+  font-family: Sans-Serif;
+  font-size: larger;
+}
