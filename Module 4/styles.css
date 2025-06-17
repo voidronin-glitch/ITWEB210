@@ -1,0 +1,30 @@
+/* Flexbox for team members */
+#teamdisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.teammember {
+    background-color: #e0f7fa;
+    color: #333;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Grid for media images */
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid blue;
+    text-align: center;
+    gap: 10px;
+}
