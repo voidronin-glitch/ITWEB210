@@ -1,0 +1,5 @@
+Accessibility Evaluation Summary
+
+I used the WAVE Evaluation Tool on the Module 4 "Our Team" page. The page performed well in key areas such as proper heading structure and use of alt text for images. However, it flagged missing ARIA labels and insufficient contrast in some text blocks, especially in the footer section. After adjusting the color contrast to a darker tone and applying ARIA roles to navigation, the score improved significantly.
+
+The most helpful insight was how small tweaks — such as using semantic tags and meaningful alt text — greatly enhance the experience for assistive technology users. I also added skip navigation links and ensured keyboard navigability throughout the page. Testing with NVDA screen reader confirmed that content is now more easily understood and navigable.

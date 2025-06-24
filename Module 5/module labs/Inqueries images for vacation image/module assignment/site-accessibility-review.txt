@@ -1,0 +1,5 @@
+Accessibility Review – ESPN Mobile vs Desktop
+
+I evaluated the ESPN website using WAVE and Lighthouse tools. The desktop version had a decent structure, with landmark regions and ARIA roles. However, the site uses many image-based links without proper alt attributes, especially in carousels and ads. Color contrast was also an issue in multiple areas, making it difficult for users with low vision to read headlines.
+
+On mobile, the site did a better job in terms of layout flexibility and text sizing, but it still struggled with screen reader labeling and keyboard traps in interactive elements. Modals and dropdowns were often not navigable by keyboard. Overall, ESPN provides a dynamic experience but could significantly improve usability for people with disabilities by enforcing accessibility checks during development.
